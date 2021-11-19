@@ -7,6 +7,7 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class EditAppointment {
     @TargetAggregateIdentifier
     private String appointmentId;
+    private String paymentId;
     private String date;
     private String description;
 }
